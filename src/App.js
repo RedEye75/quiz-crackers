@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import Demography from "./components/Demography";
 import Error from "./components/Error";
 import Home from "./components/Home";
 import LearnMore from "./components/LearnMore";
@@ -39,6 +40,13 @@ function App() {
           element: <QuizQuestions></QuizQuestions>,
         },
         { path: "/learnMore", element: <LearnMore></LearnMore> },
+        {
+          path: "/rechart",
+          loader: async () => {
+            return fetch("https://openapi.programming-hero.com/api/quiz");
+          },
+          element: <Demography></Demography>,
+        },
         {
           path: "*",
           element: <Error></Error>,

@@ -19,7 +19,7 @@ const Navbar = () => {
               <Link to={"/myclass"}>My classes</Link>
             </li>
             <li>
-              <a>Demography</a>
+              <Link to={"/rechart"}>Demography</Link>
             </li>
 
             <li>
