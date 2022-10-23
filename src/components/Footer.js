@@ -4,15 +4,15 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-gray-300 text-base-content">
-        <div>
-          <span className="footer-title">Services</span>
+        <div className="font-bold">
+          <span className="footer-title font-extrabold">Services</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
           <a className="link link-hover">Advertisement</a>
         </div>
-        <div>
-          <span className="footer-title">Company</span>
+        <div className="font-bold">
+          <span className="footer-title font-extrabold">Company</span>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>

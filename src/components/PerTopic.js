@@ -14,6 +14,7 @@ const PerTopic = ({ quiz }) => {
             {quiz.name}
           </h2>
           <p className="font-bold">Total : {quiz.total}</p>
+
           <div className="card-actions font-bold  justify-center">
             <button className="btn btn-primary">
               <Link to={`/quiz/${quiz.id}`}>Try Yourself</Link>
