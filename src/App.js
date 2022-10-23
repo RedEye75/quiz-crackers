@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import Error from "./components/Error";
 import Home from "./components/Home";
 import LearnMore from "./components/LearnMore";
 import Quiz from "./components/Quiz";
@@ -40,7 +41,7 @@ function App() {
         { path: "/learnMore", element: <LearnMore></LearnMore> },
         {
           path: "*",
-          element: "nothing found 404",
+          element: <Error></Error>,
         },
       ],
     },
