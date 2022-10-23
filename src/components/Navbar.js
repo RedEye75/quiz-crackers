@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex-1">
           <Link
             to={"/home"}
-            className="btn btn-ghost normal-case font-mono font-bold text-3xl"
+            className="btn btn-ghost normal-case  font-extrabold text-3xl"
           >
             Codecademy
           </Link>

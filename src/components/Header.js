@@ -18,7 +18,7 @@ const Header = () => {
             <div className="flex flex-wrap justify-center">
               <button
                 type="button"
-                className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50"
+                className="px-8 py-3 m-2 text-lg  font-bold rounded dark:bg-gray-800 dark:text-gray-50"
               >
                 <Link className="bg-red-200 p-5 px-9 rounded-lg" to="/myclass">
                   Get started
@@ -26,7 +26,7 @@ const Header = () => {
               </button>
               <button
                 type="button"
-                className=" p-5 px-9  m-2 text-lg  font-semibold rounded-lg bg-lime-200 dark:text-gray-900"
+                className=" p-5 px-9  m-2 text-lg  font-bold rounded-lg bg-lime-200 dark:text-gray-900"
               >
                 <Link to={"/learnMore"}>Learn more</Link>
               </button>
