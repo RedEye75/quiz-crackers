@@ -2,7 +2,7 @@ import React from "react";
 
 const LearnMore = () => {
   return (
-    <div className=" grid grid-cols-3 m-3 gap-4 ">
+    <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 m-3 gap-4 ">
       <div className="font-bold border-2 p-9">
         <h1 className="text-3xl mb-2">1. How does React Context API works??</h1>
         <p>
