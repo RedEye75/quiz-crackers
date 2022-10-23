@@ -23,7 +23,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a>learn More</a>
+              <Link to={"/learnMore"}>learn More</Link>
             </li>
           </ul>
         </div>

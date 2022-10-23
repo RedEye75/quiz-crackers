@@ -9,7 +9,7 @@ const PerTopic = ({ quiz }) => {
           <img className="h-64 rounded-lg" src={quiz.logo} alt="Album" />
         </figure>
 
-        <div className="card-body rounded-lg bg-red-100 h-64 m-10">
+        <div className="card-body rounded-lg bg-indigo-100 h-64 m-10">
           <h2 className="card-title text-3xl font-bold  justify-center">
             {quiz.name}
           </h2>

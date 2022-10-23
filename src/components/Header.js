@@ -28,7 +28,7 @@ const Header = () => {
                 type="button"
                 className=" p-5 px-9  m-2 text-lg  font-semibold rounded-lg bg-lime-200 dark:text-gray-900"
               >
-                Learn more
+                <Link to={"/learnMore"}>Learn more</Link>
               </button>
             </div>
           </div>

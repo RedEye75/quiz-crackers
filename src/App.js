@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
+import LearnMore from "./components/LearnMore";
 import Quiz from "./components/Quiz";
 import QuizQuestions from "./components/QuizQuestions";
 
@@ -36,6 +37,7 @@ function App() {
           },
           element: <QuizQuestions></QuizQuestions>,
         },
+        { path: "/learnMore", element: <LearnMore></LearnMore> },
         {
           path: "*",
           element: "nothing found 404",
