@@ -11,7 +11,7 @@ const QuizQuestions = () => {
     <div>
       <h1 className="text-5xl font-extrabold">{name}</h1>
       {questions.map((question) => (
-        <Question></Question>
+        <Question key={question.id} question={question}></Question>
       ))}
     </div>
   );
